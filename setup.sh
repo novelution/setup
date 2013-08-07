@@ -46,3 +46,7 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+#install node and npm  -if npm doesn't work, try npm install in bitstarter directory
+sudo apt-get install nodejs
+npm link express
+
